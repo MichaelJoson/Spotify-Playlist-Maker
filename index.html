@@ -2,7 +2,10 @@
 
 <html>
     <head>
-        <title> Spottify Spinner</title>
+        
+        <title>Spotify Web API Demo</title>
+        
+        <script src="app.js"></script>
     </head>
 
     <body onload="onPageLoad()">
@@ -12,14 +15,14 @@
             <div id="tokenSection" class="row">
                 <div class ="col">
                     <div class="mb-3">
-                        <label for="clientID" class="form-label">Client ID</label>
-                        <input type="text" class="form-control" id="clientID" placeholder="">
+                        <label for="clientId" class="form-label">Client ID</label>
+                        <input type="text" class="form-control" id="clientId" placeholder="">
                     </div>
                     <div class="mb-3">
                         <label for="clientSecret" class="form-label">Client Secret</label>
-                        <input type="text" class="form-control" id="clientID" placeholder="">
+                        <input type="text" class="form-control" id="clientSecret" placeholder="">
                     </div>
-                    <input class="btn btn-primary btn-lg" type = "button" onclick="requestAuthorization()" value = "Request Authorization"><br/>
+                    <input class="btn btn-primary btn-lg" type="button" onclick="requestAuthorization()" value="Request Authorization"><br/>
                 </div>
             </div>
         </div>
